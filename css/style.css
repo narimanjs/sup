@@ -18,6 +18,11 @@ a {
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .container {
     max-width: 1230px;
     margin: 0 auto;
@@ -154,7 +159,7 @@ header::after{
 }
 /* Header styles ends */
 
-/* section styles starts */
+/* section info styles starts */
 .info {
     background-image: url(../images/info-bg.jpg);
     background-repeat: no-repeat;
@@ -178,6 +183,7 @@ header::after{
     display: flex;
     gap: 80px;
     padding-top: 100px;
+    margin-bottom: 65vh;
 
 }
 .info__top-text {
@@ -213,3 +219,112 @@ header::after{
     right: 0;
 
  }
+ .info__specs {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+ }
+ .info__specs-title {
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    line-height: 67px;
+    width: 250px;
+
+ }
+.info__specs-list {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+    width: 565px;
+    font-weight: 700;
+}
+.info__specs_item {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 25px;
+}
+.info__specs-caption {
+    width: 185px;
+}
+/* section info styles ends */
+
+/* section Buy styles starts */
+.buy{
+    padding: 150px 0;
+}
+.buy__inner {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.buy__content {
+    width: 510px;
+    position: relative;
+}
+.buy__title {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-family: 'Comfortaa';
+    font-size: 60px;
+    line-height: 67px;
+    color: #0093A1;
+}
+.buy__list {
+    margin-bottom: 25px;
+}
+.buy__item {
+    margin-bottom: 25px;
+    width: 285px;
+    
+}
+.buy__item:hover .buy__item-title {
+    color: #0093A1;
+}
+.buy__item-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    transition: color .3s;
+}
+.buy__price {
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+    width: 201px;
+    height: 199px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #262C27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/star.svg);    
+}
+.buy__btn {
+    text-transform: uppercase;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #0093A1;
+    background-color: transparent;
+    border: 2px solid #0093A1;
+    cursor: pointer;
+    padding: 18px;
+    text-align: center;
+    max-width: 484px;
+    width: 100%;
+    transition: all .3s;
+
+}
+
+.buy__btn:hover {
+    background-color: #B9C400;
+    border: 2px solid #B9C400;
+    color: #262C27;
+}
+/* section Buy styles ends */
