@@ -1,1 +1,1 @@
-# sup
+# https://narcash.github.io/sup/
