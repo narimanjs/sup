@@ -1,1 +1,1 @@
-# https://narcash.github.io/sup/
+# https://narimanjs.github.io/sup/
